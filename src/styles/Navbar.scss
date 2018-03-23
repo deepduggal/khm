@@ -1,0 +1,15 @@
+.navTrigger {
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+  z-index: 1000;
+  //cursor: pointer;
+}
+
+.navItem {
+  color: inherit;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}

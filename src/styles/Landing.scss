@@ -1,0 +1,53 @@
+.landing {
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+  .background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    background: center center/cover no-repeat;
+  }
+
+  .middle {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+
+    .itemNumber {
+      position: absolute;
+      bottom: 0;
+      left: 3rem;
+      padding: 1rem;
+      -webkit-box-shadow: 0px -0.0625rem 0.5rem 0.125rem rgba(196,192,196,0.75);
+      -moz-box-shadow: 0px -0.0625rem 0.5rem 0.125rem rgba(196,192,196,0.75);
+      box-shadow: 0px -0.0625rem 0.5rem 0.125rem rgba(196,192,196,0.75);
+      font-size: 6rem;
+      font-weight: bold;
+      background: white;
+      color: black;
+    }
+  }
+
+  .foreground {
+    height: 100%;
+    width: 100%;
+    padding: 3rem;
+
+    .landingText {
+      padding: 0.125em;
+      margin: 0 auto;
+      display: inline-block;
+      font-size: 4rem;
+      text-align: center;
+      background: black;
+      font-style: italic;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.services {
+  //height: 100%;
+  //width: 100%;
+  padding: 2rem;
+
+  .grid {
+
+    .gridItem {
+      position: relative;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+
+      .imgInfo {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 1;
+        height: 6rem;
+        width: 100%;
+        padding: 0.5rem;
+        background-color: black;
+        opacity: 0.7;
+        color: white;
+
+        .imgTitle {
+          font-size: 1.7rem;
+        }
+        .imgDescription {
+          font-size: 1rem;
+        }
+      }
+    }
+
+  }
+}

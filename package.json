@@ -1,0 +1,31 @@
+{
+  "name": "khm",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "gsap": "^1.20.4",
+    "material-design-icons": "^3.0.1",
+    "node-sass-chokidar": "^1.1.0",
+    "npm-run-all": "^4.1.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-flexbox-grid": "^2.0.0",
+    "react-lazyload": "^2.3.0",
+    "react-scripts": "1.1.1",
+    "rmwc": "^1.3.0"
+  },
+  "scripts": {
+    "build": "npm-run-all build-css build-js",
+    "start": "npm-run-all -p watch-css start-js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow",
+    "start-js": "react-scripts start",
+    "build-js": "react-scripts build",
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.68.0"
+  }
+}
