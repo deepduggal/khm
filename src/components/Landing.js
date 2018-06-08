@@ -3,6 +3,7 @@ import '../styles/Landing.css';
 import LandingImg from '../res/landing.jpeg';
 import { Typography } from 'rmwc/Typography';
 
+
 class Landing extends Component {
     render() {
         return (
@@ -12,7 +13,7 @@ class Landing extends Component {
                     <span className="itemNumber">KHM</span>
                 </div>
                 <div className="foreground">
-                    <Typography use="display4" className="landingText">Don't you deserve your dream home?</Typography>
+                    <Typography use="headline4" className="landingText">Raleigh's go-to Handyman</Typography>
                 </div>
             </section>
         );

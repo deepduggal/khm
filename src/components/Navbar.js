@@ -65,9 +65,9 @@ class Navbar extends Component {
                         Kamel Handy Man
                     </DrawerHeader>
                     <DrawerContent>
-                        {this.state.navItems.map((navItem) => {
+                        {this.state.navItems.map((navItem, index) => {
                             return (
-                                <a href={navItem.href} className="navItem">
+                                <a key={index} href={navItem.href} className="navItem">
                                     <ListItem>
                                         <ListItemText>{navItem.label}</ListItemText>
                                     </ListItem>
